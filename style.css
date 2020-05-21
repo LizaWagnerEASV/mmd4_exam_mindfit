@@ -1,0 +1,232 @@
+/*
+Theme Name: MindFit
+Theme URI: 
+Author: Liza Wagner
+Author URI: https://wordpress.org/
+Description: Basic HTML // CSS theme
+Requires at least: 4.9.6
+Requires PHP: 5.2.4
+Text Domain: twentynineteen
+*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+nav {
+  color: #fff;
+  background-color: #48732d;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+}
+
+
+
+.nav-wrapper {
+  color: #fff;
+  background-color: #48732d;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+}
+
+
+
+
+
+.container { 
+  margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px;  
+}
+
+
+.main img
+{  
+	float: left;  
+  margin: 50px 80px 50px 0;
+}
+
+/* Header */
+.header {
+  height: 600px;
+  text-align: center; 
+  background: url('img/mindfit-hjemmeside-baggrund2-01.png');
+  background-size: no-repeat center center;
+  background-size: 100%; /* Responsive image */
+  background-repeat: no-repeat;
+}
+
+.header .container {
+	position: relative;
+	top: 200px;
+}
+
+.header h1 {
+	font-size: 80px;
+	line-height: 100px; 
+	margin-top: 0;
+	margin-bottom: 80px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+}
+
+.header p {
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.btn
+{
+  font-size: 13px;
+  background: #000000;
+  color: #FFFFFF;
+  padding: 7px 30px 7px 30px;
+  text-decoration: none;
+  transition: background 0.5s; 
+}
+
+.nav {
+  width: 100%;
+  height: 80px;
+  background: #000;  
+}
+
+/* Nav */
+.nav ul {
+	list-style: none;
+	margin: 0 auto; 
+	padding: 0;	     
+  height: 80px;
+}
+
+.nav ul li {
+  color: #FFFFFF;  
+  display: inline-block;
+  transition: background 0.5s;
+  list-style: none;
+  padding: 0 10px;
+  line-height: 80px;
+}
+
+.btn:hover, .nav ul li:hover {
+  background: #117bff;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+
+/* Main */
+.main .container {
+	margin: 80px auto;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+	height: 600px; 
+	text-align: right;
+  background: url('img/baggrund-beidge-01.png');
+  background-size: no-repeat center center;
+  background-size: cover;
+  background-size: 100%; /* Responsive image */
+  background-repeat: no-repeat;
+}
+
+
+
+.jumbotron1 {
+	height: 600px; 
+	text-align: right;
+  background: url('img/Untitled-3-01.png'); 
+ /* background-size: no-repeat center center;*/
+  background-size: 100%; /* Responsive image */
+  background-repeat: no-repeat;
+}
+
+
+.jumbotron2 {
+	height: 600px; 
+	text-align: right;
+  background: url('img/mindfit_for-01-01.png');
+  background-size: no-repeat center center;
+  background-size: cover;
+
+}
+
+.jumbotron h1 {
+  color: #FFF;
+  text-align: right;
+}
+
+.jumbotron p {
+  color: #FFF;
+  text-align: right;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 220px;
+}
+
+
+.slides {
+  height: 600px;
+}
+
+.slider {
+  height: 600px;
+}
+
+
+/* Footer */
+.page-footer { 	
+  background-color: #48732d !important;
+  height: 230px; 
+
+}
+
+.footer p {
+  
+  line-height: 80px;
+  height: 80px;
+  color: #FFF;
+  font-size: 14px;
+  margin: 0;
+  padding-left:50px; 
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
+
+
